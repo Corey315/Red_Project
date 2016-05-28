@@ -1,0 +1,111 @@
+body {
+	background-image: url(images/Maple_Bark.jpg);
+	background-position: center;
+}
+.outer_container {
+	width: 80%;
+    margin: 25px auto 25px auto;
+    border: 2px solid white;
+    background-color: #CD853F;
+}
+.header_section {
+	color: black;
+	height: 150px;
+	background-color: white;
+	text-align: center;
+}
+h1 {
+	font-family: Lucida Calligraphy;
+	padding: 50px;
+	font-size: 50px;
+	text-decoration: underline;
+}
+.nav_section {
+    background-color: maroon;
+    height: 40px;
+    text-align: center;
+    padding: 2px;
+}
+ul {
+	padding: 5px;
+	margin: 5px;
+}
+.nav_menu {
+	display: inline;
+	padding: 0px 15px 0px 15px;
+	font-size: 20px;
+}
+.nav_decor {
+	text-decoration: none;
+	color: white;
+}
+.main_container {
+	font-family: Roboto, Tahoma;
+	height: auto;
+	width: 80%;
+	margin: 25px auto 25px auto;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    padding: 5px;
+    overflow: auto;
+}
+.our {
+	text-align: center;
+}
+.first_container {
+	width: 40%;
+	height: auto;
+	padding: 5px;
+}
+.images {
+	max-width: 100%;
+}
+.text {
+	font-family: Roboto;
+}
+.second_container {
+	width: 40%;
+	height: auto;
+	padding: 5px;
+}
+.third_container {
+	width: 40%;
+	height: auto;
+	padding: 5px;
+}
+.fourth_container {
+	width: 40%;
+	height: auto;
+	padding: 5px;
+}
+footer {
+	width: 100%;
+	clear: both;
+    color: white;
+    background-color: maroon;
+    height: 75px;
+    text-align: center;
+}
+.fa {
+	padding: 5px;
+}
+.fa:hover {
+	color: blue;
+	box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+	transform: scale(1.33);
+}
+@media screen and (max-width: 480px) {
+	h1 {
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 720px) {
+	.nav_menu {
+		padding: 0px 5px;
+		font-size: 12px;
+	}
+}

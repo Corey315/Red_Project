@@ -1,0 +1,83 @@
+body {
+	color: black;
+	background-image: url(images/Maple_Bark.jpg);
+	background-position: center;
+	font-family: Georgia, Tahoma, Times;
+    line-height: 1.6em;
+}
+#main_container {
+	width: 80%;
+    margin: 25px auto 25px auto;
+    border: 2px solid white;
+    background-color: #CD853F;
+}
+.main_banner {
+	color: black;
+	height: 150px;
+	background-color: white;
+	text-align: center;
+}
+h1 {
+	font-family: Lucida Calligraphy;
+	padding: 50px;
+	font-size: 50px;
+	text-decoration: underline;
+}
+nav {
+    color: white;
+    background-color: maroon;
+    height: 40px;
+    text-align: center;
+}
+ul {
+    margin: 0px;
+    padding: 5px 30px 5px 30px;
+}
+.nav_section {
+	display: inline;
+	padding: 0px 15px 0px 15px;
+	font-size: 20px;
+}
+.nav_decor {
+	text-decoration: none;
+	color: black;
+}
+article {
+	float: left;
+	width: 60%;
+}
+h3 {
+	text-align: center;
+}
+p {
+	padding: 3px;
+}
+h4 {
+	padding-left: 3px;
+}
+aside {
+    float: right;
+    max-width: 40%
+}
+.house {
+	width: 100%;
+    padding: 5px 0px 5px 0px;
+}
+footer {
+	clear: both;
+    color: black;
+    background-color: maroon;
+    height: 50px;
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+	h1 {
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 720px) {
+	.nav_section {
+		padding: 0px 5px;
+		font-size: 13px;
+	}
+}
