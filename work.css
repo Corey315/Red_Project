@@ -1,0 +1,104 @@
+body {
+	background-image: url(images/Maple_Bark.jpg);
+	background-position: center;
+}
+.outer_container {
+	width: 80%;
+    margin: 25px auto 25px auto;
+    border: 2px solid white;
+    background-color: #CD853F;
+}
+.header_section {
+	color: black;
+	height: 150px;
+	background-color: white;
+	text-align: center;
+}
+h1 {
+	font-family: Lucida Calligraphy;
+	padding: 50px;
+	font-size: 50px;
+	text-decoration: underline;
+}
+.nav_section {
+    background-color: maroon;
+    height: 40px;
+    text-align: center;
+    padding: 2px;
+}
+ul {
+	padding: 5px;
+	margin: 5px;
+}
+.nav_menu {
+	display: inline;
+	padding: 0px 15px 0px 15px;
+	font-size: 20px;
+}
+.nav_decor {
+	text-decoration: none;
+	color: white;
+}
+.main_container {
+	font-family: Roboto, Tahoma;
+	height: auto;
+	width: 80%;
+	margin: 25px auto 25px auto;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    padding: 5px;
+    overflow: auto;
+}
+.slideshow_container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.work_pics {
+	width: 100%;
+}
+.text {
+  color: maroon;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: maroon;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media screen and (max-width: 480px) {
+	h1 {
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 720px) {
+	.nav_menu {
+		padding: 0px 5px;
+		font-size: 12px;
+	}
+}

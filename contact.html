@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="about.css"/>
+		<link rel="stylesheet" type="text/css" href="contact.css"/>
 <title>Contact Us</title>
 	</head>
 <body>
@@ -16,5 +16,33 @@
 					<li class="nav_menu"><a href="contact.html" class="nav_decor">Contact Us</a></li>
 				</ul>
 			</nav>
+<article class="main_container">
+	<div class="address">
+		<h2 class="wall">Wall to Wall Custom Homes</h2>
+			<p class="contact_us">24480 Fern Crescent, Maple Ridge, BC V4R 2S1<br />604-652-1529<br />walltowallhomes@gmail.com</p>
+	</div>
+		<br />
+	<h3 class="wall">Questions? Comments? Or Contact You!</h3>
+		<br />
+<form class="form_area">
+	<p id="returnmessage"></p>
+		<label>Name: <div class="required">*</div>
+		<input type="text" name="name" id="name" value="" /></label><br />
+			<label>Email: <div class="required">*</div>
+			<input type="text" name="email" id="email" value="" /></label><br />
+				<label>Phone: <div class="required">*</div>
+				<input type="text" name="phone" id="phone" value="" /></label><br />
+					<label>Comments/Questions?: <div class="required">*</div>
+					<textarea name="comments" id="comments" cols="50" rows="5"></textarea></label><br />
+						<label>How did you hear about us?:<br />
+						<input type="checkbox" name="find_out" id="find_out" value="radio" />Radio
+						<input type="checkbox" name="find_out" id="find_out" value="newspaper" />News Paper
+						<input type="checkbox" name="find_out" id="find_out" value="wordofmouth" />Word of Mouth
+						</label><br />
+	<input type="submit" id="submit" value="submit" />
+</form>
+	<h6 class="required">* Required Field</h6>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<script src="contact.js"></script>	
 	</div>
 </body>
